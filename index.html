@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <title>2048</title>
+</head>
+<body>
+
+    <header>
+        <h1>2048</h1>
+        <h2>Score: </h2>
+        <h3 id="score-count"></h3>
+    </header>
+
+    <main>
+
+        <div class="main">
+            <table>
+                <tr id="r0">
+                    <td id="r0c0" ></td>
+                    <td id="r0c1" ></td>
+                    <td id="r0c2" ></td>
+                    <td id="r0c3" ></td>
+                </tr>
+                <tr id="r1">
+                    <td id="r1c0" ></td>
+                    <td id="r1c1" ></td>
+                    <td id="r1c2" ></td>
+                    <td id="r1c3" ></td>
+                </tr>
+                <tr id="r2">
+                    <td id="r2c0" ></td>
+                    <td id="r2c1" ></td>
+                    <td id="r2c2" ></td>
+                    <td id="r2c3" ></td>
+                </tr>
+                <tr id="r3">
+                    <td id="r3c0" ></td>
+                    <td id="r3c1" ></td>
+                    <td id="r3c2" ></td>
+                    <td id="r3c3" ></td>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <div class="upDiv">
+                <button id="up">
+                    <i class="fas fa-chevron-circle-up fa-4x"></i>
+                </button>
+            </div>
+            <div class="leftrightDiv">
+                <div class="leftDiv">
+                    <button id="left">
+                        <i class="fas fa-chevron-circle-left fa-4x"></i>
+                    </button>
+                </div>
+                <div class="rightDiv">
+                    <button id="right">
+                        <i class="fas fa-chevron-circle-right fa-4x"></i>
+                    </button>
+                </div>  
+            </div>
+            <div class="downDiv">
+                <button id="down">
+                    <i class="fas fa-chevron-circle-down fa-4x"></i>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+</html>

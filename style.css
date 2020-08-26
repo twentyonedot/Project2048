@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+
+
+h1{
+    font-size: 4rem;
+    color: #776e65;
+}
+
+h2, h3{
+    font-size: 3rem;
+    color: #776e65;
+    margin: 2rem;
+}
+.rand{
+    color: #776e65;
+    background: #efe4da;
+}
+
+header{
+    margin: 5rem;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+table, tr,td{
+    border: 5px solid #bbada1;
+    text-align: center;
+    font-size: 4rem;
+    border-color: #bbada1;
+    background: #bbada1;
+    border-radius: 10px;
+    /* border-collapse: collapse; */
+    
+}
+
+td{
+    
+    width: 7rem;
+    height: 7rem;
+    border-color: #bbada1;
+    background: #cdc1b4;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upDiv{
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+}
+.leftrightDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+}
+.downDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+}
+.leftDiv{
+    margin-right: 2.5rem;
+}
+button{
+    margin: 1rem;
+    padding: .5rem;
+    border: none;
+    background: white;
+    color: #bdad9f;
+}
+
+button:hover{
+    color: #f65d3b;
+}
+.empty{
+    background:#cdc1b4;
+    color: #cdc1b4
+}
+
+.two{
+    background: #efe4da;
+    color: #776e65;
+}
+
+.four{
+    background: #ede0c8;
+    color: #776e65;
+}
+
+.eight{
+    background: #f3b178;
+    color: #f9f6f2;
+}
+
+.sixteen{
+    background: #f59563;
+    color: #f9f6f2;
+}
+
+.thirtytwo{
+    background: #f67c5f ;
+    color: #f9f6f2;
+}
+
+.sixtyfour{
+    background: #f65d3b;
+    color: #f9f6f2;
+}
+
+.onetwentyeight{
+    background: #eccf72;
+    color: #f9f6f2;
+}
+
+.twofiftysix{
+    background: #edcc61;
+    color: #f9f6f2;
+}
+
+.fivetwelve{
+    background: #eec850;
+    color: #f9f6f2;
+}
+
+.tentwentyfour{
+    background: #edc53f;
+    color: #f9f6f2;
+}
+
+.twentyfourtyeight{
+
+}
+
+header{
+    margin-top: 2rem
+}
